@@ -1,0 +1,80 @@
+
+.navbar{
+    background-color: #D8CFE2;
+}
+
+#dd-menu{
+    background-color: #AF9FC2;
+}
+#dd-item:hover{
+    background-color:#876EA5;
+}
+
+main{
+    background-color: #E8E2EE;
+    height: 1100px;
+} 
+
+#card-home{
+    display: block;
+    width: 9rem;
+    height: 15rem;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    font-family: sans-serif;
+    border: none;
+}
+
+h1{
+    text-align: center;
+}
+
+#card-home, #card-orquidea, #card-arranjo img{
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.card-text{
+    width: 9rem;
+    height: 15rem;
+    text-decoration: none;
+}
+
+
+.container{
+    display: flex;
+}
+
+.container1 ,.container2{
+    display: block;
+}
+
+#carouselflores{
+    max-width: 500px;
+    position: flex;
+    left: 20%;
+    top: 5px;
+}
+
+#card-orquidea, #card-arranjo{
+    display: block;
+    max-width: 17%;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    font-family: sans-serif;
+    border: none;
+    left: 13%;
+}
+
+
+#btn-comprar{
+    border-radius: 20px;
+    color: black;
+    background-color: #EF78AD;
+    border: none;
+}
+
+.container-orquideas, .container-arranjo, .container-buques, .container-urso, .container-cestas{
+    display: flex;
+}
+
